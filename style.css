@@ -1,0 +1,416 @@
+    @import url('https://fonts.googleapis.com/css2?');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        background: ;
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        background: white;
+    }
+    
+    .handle-bar {
+        display: none
+    }
+    
+    .logo {
+        font-size: 2em;
+        color: rgb(68, 60, 60);
+        cursor: default;
+    }
+    
+    span {
+        color: orange;
+    }
+    
+    .navigation a {
+        font-size: 1.1em;
+        color: rgb(68, 60, 60);
+        text-decoration: none;
+        margin-right: 40px;
+        font-weight: 500;
+        transition: .3s;
+    }
+    
+    .navigation a:hover {
+        color: orange;
+    }
+    
+    .jaymighty-download {
+        color: white;
+        text-decoration: none;
+        padding: 8px 35px;
+        background: orange;
+        border-radius: 10px;
+        border: 2px solid orange;
+        font-weight: 500;
+        transition: .3s;
+    }
+    
+    .jaymighty-download:hover {
+        color: orange;
+        background: transparent;
+    }
+    
+    .home-row {
+        display: flex;
+        justify-content: space-between;
+        width: 1440px;
+        flex-wrap: wrap;
+    }
+    
+    .home {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        display: flex;
+        align-items: center;
+        padding: 30px 100px;
+        margin: 20px auto;
+    }
+    
+    .image-home {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background: orange;
+        margin: 0 auto;
+        margin: 20px auto;
+    }
+    
+    .image-home img {
+        position: relative;
+        text-align: center;
+        width: 85%;
+        height: 83%;
+        right: -8%;
+        top: 5%;
+        object-fit: contain;
+    }
+    
+    .content {
+        max-width: 500px;
+        color: rgb(68, 60, 60);
+    }
+    
+    .content h2 {
+        font-size: 3em
+    }
+    
+    .content h4 {
+        font-size: 1.7em;
+    }
+    
+    .content p {
+        padding: 10px 0 40px 0;
+    }
+    
+    .wajjay a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 40px;
+        background: orange;
+        border-radius: 10px;
+        border: 2px solid orange;
+        font-weight: 500;
+        transition: .3s;
+    }
+    
+    .wajjay a:hover:nth-child(1) {
+        color: orange;
+        background: transparent;
+    }
+    
+    .wajjay a:nth-child(2) {
+        color: orange;
+        background: transparent;
+        margin-left: 30px;
+        padding: 10px 30px;
+    }
+    
+    .wajjay a:hover:nth-child(2) {
+        color: white;
+        background: orange;
+    }
+    
+    .my-details {
+        position: absolute;
+        bottom: 50px;
+    }
+    
+    .my-details a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background: transparent;
+        border-radius: 50%;
+        margin-right: 22px;
+        text-align: center;
+        line-height: 40px;
+        outline: 3px solid orange;
+        transition: .3s;
+    }
+    
+    .my-details a:hover {
+        transform: translateY(-5px);
+    }
+    
+    .my-details a i {
+        color: rgb(68, 60, 60);
+        font-size: 20px
+    }
+    
+    .about {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: gainsboro;
+        display: flex;
+        align-items: center;
+        padding: 30px 100px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .about-me {
+        width: 75%
+    }
+    
+    .about-me p {
+        max-width: 1200px;
+        width: 100%;
+        color: rgb(68, 60, 60);
+        font-size: 18px;
+    }
+    
+    .about-me h4 {
+        font-size: 2em;
+        color: orange;
+    }
+    
+    .col-6 img {
+        margin-top: -200px;
+    }
+    
+    .skills {
+        display: flex;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+    }
+    
+    .skills-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    
+    .project {
+        display: block;
+        height: 100vh;
+        background: gray;
+        align-items: center;
+        text-align: center;
+        padding: 30px 100px;
+    }
+    
+    .the-project {
+        line-height: 4rem;
+        color: orange;
+        font-weight: bolder;
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 50px;
+    }
+    
+    .my-project {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .card {
+        height: 400px;
+        width: 600px;
+        border-radius: 10px;
+        border: 2px dotted rgb(68, 60, 60);
+    }
+    
+    .card-body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card-body img {
+        width: 100%;
+        height: 350px;
+        border-radius: 15px;
+    }
+    
+    .container-card-foot {
+        text-align: start;
+        padding-left: 10px;
+        font-size: 2rem;
+        color: rgb(68, 60, 60)
+    }
+    
+    .container-card-foot a {
+        text-decoration: none;
+        color: rgb(68, 60, 60)
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 100px;
+        background: darkgray;
+    }
+    
+    .the-contact {
+        line-height: 4rem;
+        color: orange;
+        font-weight: bolder;
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 50px;
+    }
+    
+    .form {
+        width: 600px;
+        display: block;
+    }
+    
+    .input-box {
+        display: flex;
+        align-items: center;
+    }
+    
+    .text-input {
+        height: 2rem;
+        background-color: transparent;
+        border-top-width: initial;
+        border-right-width: initial;
+        border-left-width: initial;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-left-color: initial;
+        border-style: none none none;
+        border-image: initial;
+        border-bottom: solid 2px rgb(68, 60, 60);
+    }
+    
+    .input-box input,
+    textarea {
+        width: 100%;
+        font-size: 1rem;
+        padding-left: 0.3rem;
+        margin: 1rem;
+    }
+    
+    .input-box .message,
+    textarea {
+        height: 5rem;
+        border-top-width: initial;
+        border-right-width: initial;
+        border-left-width: initial;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-left-color: initial;
+        border-style: none none none;
+        border-image: initial;
+        border-bottom: solid 2px rgb(68, 60, 60);
+    }
+    
+    .submit-btn {
+        background-color: transparent;
+        padding: 10px 20px;
+        margin: 50px 0px;
+        transition: background-color 0.2s linear 0s, color;
+        border-radius: 30px;
+        width: 100%;
+        border: 2px solid rgb(68, 60, 60);
+    }
+    
+    .submit-btn:hover {
+        color: white;
+        background: orange;
+        transform: translateY(-5px);
+    }
+    
+    @media (max-width: 576px) {
+        header {
+            padding: 8px 10px;
+        }
+        .navigation {
+            display: none
+        }
+        .handle-bar {
+            display: block;
+            /* padding-right: 20px; */
+        }
+        .about {
+            height: 100%;
+            padding: 12px 8px;
+            width: 100%;
+        }
+        .sm-reverse {
+            flex-direction: column-reverse
+        }
+        .home {
+            padding: 0px;
+            width: 95%
+        }
+        .content,
+        .me,
+        .about-me,
+        .home-row,
+        .form {
+            width: 100% !important;
+        }
+        .image-home {
+            width: 95%;
+            height: 95%
+        }
+        .image-home img {
+            top: -40px;
+        }
+        .project {
+            padding: 10px 30px;
+        }
+        .my-project {
+            flex-direction: column;
+        }
+        .my-project .card {
+            margin-bottom: 20px;
+            width: 90%;
+            height: 100%;
+            border: 1px solid rgb(68, 60, 60);
+        }
+        .container-card-foot {
+            font-size: 1.2rem;
+        }
+        .me {
+            margin-bottom: 40px;
+        }
+    }
